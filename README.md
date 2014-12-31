@@ -1,4 +1,4 @@
-CAN-Frame-Protection-Custom-Device
+Control-Custom-Device
 ===================
 
 **IP Name** is a insert description of IP
