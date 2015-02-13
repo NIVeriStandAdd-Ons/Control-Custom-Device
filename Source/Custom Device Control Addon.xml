@@ -62,6 +62,7 @@
 		    <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
+<!--    
         <MenuItem>
           <GUID>4e51c692-6081-42de-abbc-f98f05d47bc5</GUID>
           <Type>Action</Type>
@@ -74,6 +75,7 @@
             <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\EnableDisable Main Page.vi</Path>
           </Item2Launch>
         </MenuItem>
+-->
         <MenuItem>
           <GUID>8e2bc51f-d0d6-4f9a-934b-d2c6613f313f</GUID>
           <Type>Action</Type>
