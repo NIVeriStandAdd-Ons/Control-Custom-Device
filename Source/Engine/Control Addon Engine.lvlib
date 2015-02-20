@@ -14,14 +14,15 @@
 		<Item Name="Get RT Configuration.vi" Type="VI" URL="../SubVIs/Get RT Configuration.vi"/>
 		<Item Name="Initialize Async VIs.vi" Type="VI" URL="../SubVIs/Initialize Async VIs.vi"/>
 		<Item Name="Initialize Network Engine.vi" Type="VI" URL="../SubVIs/Initialize Network Engine.vi"/>
+		<Item Name="Network Command Engine.vi" Type="VI" URL="../SubVIs/Network Command Engine.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="RT Configuration.ctl" Type="VI" URL="../Types/RT Configuration.ctl"/>
+		<Item Name="RT Driver State Variables.ctl" Type="VI" URL="../Types/RT Driver State Variables.ctl"/>
 	</Item>
 	<Item Name="Userlib" Type="Folder">
 		<Item Name="Error Handling API.lvlib" Type="Library" URL="../SubVIs/Error Handling API/Error Handling API.lvlib"/>
 		<Item Name="Inline Async API.lvlib" Type="Library" URL="../SubVIs/Inline Async API/Inline Async API.lvlib"/>
-		<Item Name="Network Common API.lvlib" Type="Library" URL="../SubVIs/Network Communication/Network Common API.lvlib"/>
 		<Item Name="Stop FG.lvlib" Type="Library" URL="../SubVIs/Stop FG/Stop FG.lvlib"/>
 	</Item>
 	<Item Name="Network Engine.vi" Type="VI" URL="../SubVIs/Network Engine.vi"/>
