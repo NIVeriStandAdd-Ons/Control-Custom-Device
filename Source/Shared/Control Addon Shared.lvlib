@@ -22,6 +22,8 @@
 			<Item Name="Workspace Object Cached Settings.ctl" Type="VI" URL="../Types/Workspace Object Cached Settings.ctl"/>
 			<Item Name="Workspace Object State Variables.ctl" Type="VI" URL="../Types/Workspace Object State Variables.ctl"/>
 		</Item>
+		<Item Name="Add Industrial Controller.vi" Type="VI" URL="../../System Explorer/RTMs/Add Industrial Controller.vi"/>
+		<Item Name="Add PID Controller.vi" Type="VI" URL="../../System Explorer/RTMs/Add PID Controller.vi"/>
 		<Item Name="Add PID Parameter Row.vi" Type="VI" URL="../Add PID Parameter Row.vi"/>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 		<Item Name="Controller Settings FG.vi" Type="VI" URL="../Controller Settings FG.vi"/>
@@ -32,10 +34,13 @@
 		<Item Name="Import PID Parameters.vi" Type="VI" URL="../Import PID Parameters.vi"/>
 		<Item Name="Industrial Parameters FG.vi" Type="VI" URL="../Industrial Parameters FG.vi"/>
 		<Item Name="Manage Menu Items.vi" Type="VI" URL="../Manage Menu Items.vi"/>
+		<Item Name="Manage Setpoint Channel.vi" Type="VI" URL="../../System Explorer/SubVIs/Manage Setpoint Channel.vi"/>
 		<Item Name="PID Parameters FG.vi" Type="VI" URL="../PID Parameters FG.vi"/>
 		<Item Name="Remove IP Address from CD Path.vi" Type="VI" URL="../Remove IP Address from CD Path.vi"/>
 		<Item Name="Search Sysdef for Custom Devices.vi" Type="VI" URL="../Search Sysdef for Custom Devices.vi"/>
 		<Item Name="Search Sysdef for Targets.vi" Type="VI" URL="../Search Sysdef for Targets.vi"/>
 		<Item Name="Select Controller.vi" Type="VI" URL="../Select Controller.vi"/>
+		<Item Name="Set Output Node Linkage.vi" Type="VI" URL="../../System Explorer/SubVIs/Set Output Node Linkage.vi"/>
+		<Item Name="Update Channel Dependancy.vi" Type="VI" URL="../../System Explorer/SubVIs/Update Channel Dependancy.vi"/>
 	</Item>
 </Library>

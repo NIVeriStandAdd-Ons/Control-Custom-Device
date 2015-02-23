@@ -23,8 +23,6 @@
 				<Item Name="PID Parameters.vi" Type="VI" URL="../PID Parameters.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
-				<Item Name="Add Industrial Controller.vi" Type="VI" URL="../RTMs/Add Industrial Controller.vi"/>
-				<Item Name="Add PID Controller.vi" Type="VI" URL="../RTMs/Add PID Controller.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTMs/EnableDisable Main Page.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
@@ -40,9 +38,6 @@
 			<Item Name="Initialize PID Parameters Channel Browsers.vi" Type="VI" URL="../SubVIs/Initialize PID Parameters Channel Browsers.vi"/>
 			<Item Name="Initialize PID Settings.vi" Type="VI" URL="../SubVIs/Initialize PID Settings.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
-			<Item Name="Manage Setpoint Channel.vi" Type="VI" URL="../SubVIs/Manage Setpoint Channel.vi"/>
-			<Item Name="Set Output Node Linkage.vi" Type="VI" URL="../SubVIs/Set Output Node Linkage.vi"/>
-			<Item Name="Update Channel Dependancy.vi" Type="VI" URL="../SubVIs/Update Channel Dependancy.vi"/>
 			<Item Name="Update PID Parameters.vi" Type="VI" URL="../SubVIs/Update PID Parameters.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">

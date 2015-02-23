@@ -34,15 +34,19 @@
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
+		<Item Name="APIs" Type="Folder">
+			<Item Name="PID Control Host API.lvlib" Type="Library" URL="../APIs/Host API/PID Control Host API.lvlib"/>
+			<Item Name="Control SysDef API.lvlib" Type="Library" URL="../APIs/System Definition API/Control SysDef API.lvlib"/>
+			<Item Name="System Definition Control Addon API.vi" Type="VI" URL="../APIs/Examples/System Definition Control Addon API.vi"/>
+			<Item Name="Host API Example.vi" Type="VI" URL="../APIs/Examples/Host API Example.vi"/>
+		</Item>
 		<Item Name="Control.chm" Type="Document" URL="../Help/Control.chm"/>
 		<Item Name="Custom Device Control Addon.xml" Type="Document" URL="../Custom Device Control Addon.xml"/>
 		<Item Name="Control Addon Engine.lvlib" Type="Library" URL="../Engine/Control Addon Engine.lvlib"/>
 		<Item Name="Control Addon Shared.lvlib" Type="Library" URL="../Shared/Control Addon Shared.lvlib"/>
 		<Item Name="Control Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/Control Addon System Explorer.lvlib"/>
 		<Item Name="PID Control Workspace Tool.lvlib" Type="Library" URL="../Workspace Tool/PID Control Workspace Tool.lvlib"/>
-		<Item Name="PID Control Host API.lvlib" Type="Library" URL="../Host API/PID Control Host API.lvlib"/>
 		<Item Name="Control Workspace Object.lvlib" Type="Library" URL="../Workspace Objects/Control Workspace Object.lvlib"/>
-		<Item Name="Control SysDef API.lvlib" Type="Library" URL="../System Definition API/Control SysDef API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -190,7 +194,7 @@
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/Control Addon/Glyphs</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C3EA0E5F-B575-44B7-90D6-73D608EB6C75}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8AE9B1C0-5545-4FA1-891A-0502B6D591D6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -226,8 +230,11 @@
 				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Control Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
@@ -240,6 +247,7 @@
 				<Property Name="Source[3].properties[4].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
@@ -253,7 +261,11 @@
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Custom Device Control Addon.xml</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Control Addon Shared.lvlib</Property>
+				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
@@ -357,24 +369,24 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/PID Control Host API.lvlib</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib</Property>
 				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/PID Control Host API.lvlib/SubVIs</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/SubVIs</Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/PID Control Host API.lvlib/Close Connection with CD.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Close Connection with CD.vi</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/PID Control Host API.lvlib/Get PID Configuration.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Get PID Configuration.vi</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/PID Control Host API.lvlib/Initialize Connection with CD.vi</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Initialize Connection with CD.vi</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/PID Control Host API.lvlib/Update Configuration.vi</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Update Configuration.vi</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
@@ -474,24 +486,24 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/PID Control Host API.lvlib</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib</Property>
 				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/PID Control Host API.lvlib/SubVIs</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/SubVIs</Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/PID Control Host API.lvlib/Close Connection with CD.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Close Connection with CD.vi</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/PID Control Host API.lvlib/Get PID Configuration.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Get PID Configuration.vi</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/PID Control Host API.lvlib/Initialize Connection with CD.vi</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Initialize Connection with CD.vi</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/PID Control Host API.lvlib/Update Configuration.vi</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Update Configuration.vi</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Control Workspace Object.lvlib/Control - Industrial Control.vi</Property>
@@ -564,6 +576,51 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/PID Control Workspace Tool.lvlib/Types</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">20</Property>
+			</Item>
+			<Item Name="SysDef API" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A0533592-A323-4D30-94DC-483797E222C2}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SysDef API</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Control Addon/SysDef API</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6DAA0C69-C130-4BCF-B26C-CAFA5C0BCD7C}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Control System Definition API.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/Control Addon/SysDef API/Control System Definition API.lvlibp</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/Control Addon/SysDef API</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8AE9B1C0-5545-4FA1-891A-0502B6D591D6}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/APIs/Control SysDef API.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Control Addon Shared.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">SysDef API</Property>
+				<Property Name="TgtF_internalName" Type="Str">SysDef API</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 NI</Property>
+				<Property Name="TgtF_productName" Type="Str">SysDef API</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{21D54836-7533-4EE2-AE2E-6F4C1A744071}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Control System Definition API.lvlibp</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -652,6 +709,7 @@
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="NI_VS UI Single Node Browser.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/UI Controls/Single Node Browser/NI_VS UI Single Node Browser.lvlib"/>
 				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -940,6 +998,7 @@ DirectoryIndex index.htm
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="NI_VS UI Single Node Browser.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/UI Controls/Single Node Browser/NI_VS UI Single Node Browser.lvlib"/>
 				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
