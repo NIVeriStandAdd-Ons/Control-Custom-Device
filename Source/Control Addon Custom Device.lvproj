@@ -42,6 +42,7 @@
 		<Item Name="PID Control Workspace Tool.lvlib" Type="Library" URL="../Workspace Tool/PID Control Workspace Tool.lvlib"/>
 		<Item Name="PID Control Host API.lvlib" Type="Library" URL="../Host API/PID Control Host API.lvlib"/>
 		<Item Name="PID Control Workspace Object.lvlib" Type="Library" URL="../Workspace Objects/PID Control Workspace Object.lvlib"/>
+		<Item Name="Control SysDef API.lvlib" Type="Library" URL="../System Definition API/Control SysDef API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
