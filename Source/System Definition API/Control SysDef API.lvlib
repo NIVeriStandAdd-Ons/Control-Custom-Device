@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Search for Path.vi" Type="VI" URL="../SubVIs/Search for Path.vi"/>
+	</Item>
 	<Item Name="Create Control Addon.vi" Type="VI" URL="../Create Control Addon.vi"/>
 	<Item Name="Create Industrial Controller.vi" Type="VI" URL="../Create Industrial Controller.vi"/>
 	<Item Name="Create PID Controller.vi" Type="VI" URL="../Create PID Controller.vi"/>
