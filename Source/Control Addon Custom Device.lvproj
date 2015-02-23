@@ -41,7 +41,7 @@
 		<Item Name="Control Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/Control Addon System Explorer.lvlib"/>
 		<Item Name="PID Control Workspace Tool.lvlib" Type="Library" URL="../Workspace Tool/PID Control Workspace Tool.lvlib"/>
 		<Item Name="PID Control Host API.lvlib" Type="Library" URL="../Host API/PID Control Host API.lvlib"/>
-		<Item Name="PID Control Workspace Object.lvlib" Type="Library" URL="../Workspace Objects/PID Control Workspace Object.lvlib"/>
+		<Item Name="Control Workspace Object.lvlib" Type="Library" URL="../Workspace Objects/Control Workspace Object.lvlib"/>
 		<Item Name="Control SysDef API.lvlib" Type="Library" URL="../System Definition API/Control SysDef API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -167,7 +167,6 @@
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="UI.Refs.ctl" Type="VI" URL="../Workspace Objects/Types/UI.Refs.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -495,20 +494,20 @@
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/PID Control Host API.lvlib/Update Configuration.vi</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/PID Control Workspace Object.lvlib/Control - Industrial Control.vi</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Control Workspace Object.lvlib/Control - Industrial Control.vi</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[16].type" Type="Str">VI</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/PID Control Workspace Object.lvlib</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Control Workspace Object.lvlib</Property>
 				<Property Name="Source[17].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[17].type" Type="Str">Library</Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/PID Control Workspace Object.lvlib/Control - PID Control.vi</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Control Workspace Object.lvlib/Control - PID Control.vi</Property>
 				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/PID Control Workspace Object.lvlib/SubVIs</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Control Workspace Object.lvlib/SubVIs</Property>
 				<Property Name="Source[19].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
@@ -680,7 +679,6 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="UI.Refs.ctl" Type="VI" URL="../Workspace Objects/Types/UI.Refs.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -969,7 +967,6 @@ DirectoryIndex index.htm
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="UI.Refs.ctl" Type="VI" URL="../Workspace Objects/Types/UI.Refs.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">

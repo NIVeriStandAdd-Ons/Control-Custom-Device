@@ -17,6 +17,7 @@
 			<Item Name="PID Parameters.ctl" Type="VI" URL="../Types/PID Parameters.ctl"/>
 			<Item Name="UDP Streaming Command Cluster.ctl" Type="VI" URL="../Types/UDP Streaming Command Cluster.ctl"/>
 			<Item Name="UDP Streaming State.ctl" Type="VI" URL="../Types/UDP Streaming State.ctl"/>
+			<Item Name="UI.Refs.ctl" Type="VI" URL="../../Workspace Objects/Types/UI.Refs.ctl"/>
 			<Item Name="Update Parameters Message.ctl" Type="VI" URL="../Types/Update Parameters Message.ctl"/>
 			<Item Name="Workspace Object Cached Settings.ctl" Type="VI" URL="../Types/Workspace Object Cached Settings.ctl"/>
 			<Item Name="Workspace Object State Variables.ctl" Type="VI" URL="../Types/Workspace Object State Variables.ctl"/>
