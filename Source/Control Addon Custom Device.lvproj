@@ -36,8 +36,6 @@
 		</Item>
 		<Item Name="APIs" Type="Folder">
 			<Item Name="PID Control Host API.lvlib" Type="Library" URL="../APIs/Host API/PID Control Host API.lvlib"/>
-			<Item Name="Control SysDef API.lvlib" Type="Library" URL="../APIs/System Definition API/Control SysDef API.lvlib"/>
-			<Item Name="System Definition Control Addon API.vi" Type="VI" URL="../APIs/Examples/System Definition Control Addon API.vi"/>
 			<Item Name="Host API Example.vi" Type="VI" URL="../APIs/Examples/Host API Example.vi"/>
 		</Item>
 		<Item Name="Control.chm" Type="Document" URL="../Help/Control.chm"/>
@@ -601,7 +599,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{8AE9B1C0-5545-4FA1-891A-0502B6D591D6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/APIs/Control SysDef API.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
