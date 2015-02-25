@@ -13,6 +13,7 @@
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="CD Saved State.ctl" Type="VI" URL="../Types/CD Saved State.ctl"/>
+		<Item Name="Tool State Variables.ctl" Type="VI" URL="../Types/Tool State Variables.ctl"/>
 	</Item>
 	<Item Name="PID - Tool.rtm" Type="Document" URL="../PID - Tool.rtm"/>
 	<Item Name="PID - Tool.vi" Type="VI" URL="../PID - Tool.vi"/>
