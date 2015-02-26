@@ -28,7 +28,7 @@
 			<Item Name="PID Control.png" Type="Document" URL="../Glyphs/PID Control.png"/>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
@@ -122,37 +122,6 @@
 				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
 				<Item Name="UDP Multicast Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Open.vi"/>
 				<Item Name="NI_VS Custom Device ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/CustomDevice/NI_VS Custom Device ExecutionAPI.lvlib"/>
-			</Item>
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="stm_TCP Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Connection Info.ctl"/>
-				<Item Name="stm_MetaDataElement.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/_SubVIs/stm_MetaDataElement.ctl"/>
-				<Item Name="stm_TCP Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Read Options.ctl"/>
-				<Item Name="stm_UDP Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Read Options.ctl"/>
-				<Item Name="stm_UDP Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Data Info.ctl"/>
-				<Item Name="stm_UDP Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Connection Info.ctl"/>
-				<Item Name="stm_Serial Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Read Options.ctl"/>
-				<Item Name="stm_Serial Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Connection Info.ctl"/>
-				<Item Name="STM Read Message.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Read Message.vi"/>
-				<Item Name="STM Read Message (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Read Message (TCP).vi"/>
-				<Item Name="stm_TCP Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Data Info.ctl"/>
-				<Item Name="STM Read Message (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Read Message (UDP).vi"/>
-				<Item Name="STM Read Message (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Read Message (Serial).vi"/>
-				<Item Name="stm_Serial Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Data Info.ctl"/>
-				<Item Name="STM Write Message.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Write Message.vi"/>
-				<Item Name="STM Write Message (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Write Message (TCP).vi"/>
-				<Item Name="stm_TCP Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Write Options.ctl"/>
-				<Item Name="stm_GetIDfromName_.vi" Type="VI" URL="/&lt;userlib&gt;/STM/_SubVIs/stm_GetIDfromName_.vi"/>
-				<Item Name="STM Write Message (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Write Message (UDP).vi"/>
-				<Item Name="stm_UDP Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Write Options.ctl"/>
-				<Item Name="STM Write Message (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Write Message (Serial).vi"/>
-				<Item Name="stm_Serial Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Write Options.ctl"/>
-				<Item Name="STM Write Meta Data (Serial Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Write Meta Data (Serial Clst).vi"/>
-				<Item Name="STM Write Meta Data (Serial Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Write Meta Data (Serial Ref).vi"/>
-				<Item Name="STM Write Meta Data (UDP Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Write Meta Data (UDP Clst).vi"/>
-				<Item Name="STM Write Meta Data (TCP Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Write Meta Data (TCP Clst).vi"/>
-				<Item Name="STM Write Meta Data (UDP Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Write Meta Data (UDP Ref).vi"/>
-				<Item Name="STM Write Meta Data (TCP Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Write Meta Data (TCP Ref).vi"/>
-				<Item Name="STM Write Meta Data.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Write Meta Data.vi"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -372,7 +341,7 @@
 				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/SubVIs</Property>
+				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Close Connection with CD.vi</Property>
@@ -381,7 +350,7 @@
 				<Property Name="Source[13].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Get PID Configuration.vi</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Initialize Connection with CD.vi</Property>
+				<Property Name="Source[14].itemID" Type="Ref"></Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Update Configuration.vi</Property>
@@ -489,7 +458,7 @@
 				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/SubVIs</Property>
+				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Close Connection with CD.vi</Property>
@@ -498,7 +467,7 @@
 				<Property Name="Source[13].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Get PID Configuration.vi</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Initialize Connection with CD.vi</Property>
+				<Property Name="Source[14].itemID" Type="Ref"></Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Update Configuration.vi</Property>
@@ -627,7 +596,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Control Addon Engine.lvlib" Type="Library" URL="../Engine/Control Addon Engine.lvlib"/>
@@ -916,7 +885,7 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Control Addon Engine.lvlib" Type="Library" URL="../Engine/Control Addon Engine.lvlib"/>

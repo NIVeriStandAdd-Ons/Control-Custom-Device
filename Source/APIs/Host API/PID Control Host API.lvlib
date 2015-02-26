@@ -4,11 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Send TCP Request and Wait on Response.vi" Type="VI" URL="../Send TCP Request and Wait on Response.vi"/>
-	</Item>
 	<Item Name="Close Connection with CD.vi" Type="VI" URL="../Close Connection with CD.vi"/>
 	<Item Name="Get PID Configuration.vi" Type="VI" URL="../Get PID Configuration.vi"/>
-	<Item Name="Initialize Connection with CD.vi" Type="VI" URL="../Initialize Connection with CD.vi"/>
 	<Item Name="Update Configuration.vi" Type="VI" URL="../Update Configuration.vi"/>
 </Library>

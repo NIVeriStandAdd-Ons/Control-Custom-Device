@@ -1,25 +1,25 @@
 Control-Custom-Device
 ===================
 
-**IP Name** is a insert description of IP
+This addon provides PID and On/Off (called industrial) control to NI VeriStand. Additionally, it provides special workspace objects tailored towards control.  Last, a PID tuning tool is provided to allow controlled gain changes..
 
 ### LabVIEW Version ###
 
-Describe the LabVIEW version used to develop this source
+LabVIEW 2013
 
 ### Built Availability ###
 
-Describe the availability, or lack of availability of built versions of this IP and provide any links needed to go get builds
+Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales. 
 
 ### Quality, Limitations ###
 
-Describe the maturity of the IP. Is this in use worldwide? Is this terrible code that needs lots of updates? Is this a work in progress?
+IP has been tested by developer. It meets VeriStand addon coding best practices. It is currently used by various customers.
 
-Describe any limitations of the IP.
+IP does not support multiple modes for per PID controller.
 
 ### Dependencies ###
 
-Describe any dependencies of the IP
+None.
 
 ### License ###
 
