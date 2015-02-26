@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Close Workspace Control Refs.vi" Type="VI" URL="../SubVIs/Close Workspace Control Refs.vi"/>
+		<Item Name="Get Controller Variables Ranges.vi" Type="VI" URL="../SubVIs/Get Controller Variables Ranges.vi"/>
 		<Item Name="Initialize Workspace Control Refs.vi" Type="VI" URL="../SubVIs/Initialize Workspace Control Refs.vi"/>
 		<Item Name="UDP Data Engine.vi" Type="VI" URL="../SubVIs/UDP Data Engine.vi"/>
 	</Item>
