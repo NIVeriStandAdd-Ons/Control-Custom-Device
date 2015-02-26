@@ -19,7 +19,7 @@ IP does not support multiple modes for per PID controller.
 
 ### Dependencies ###
 
-None.
+LabVIEW Control or LabVIEW RT 2013 (required for PID VIs)
 
 ### License ###
 
