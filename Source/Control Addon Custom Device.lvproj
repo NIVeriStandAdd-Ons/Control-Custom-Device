@@ -121,7 +121,44 @@
 				<Item Name="UDP Multicast Write-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Write-Only Open.vi"/>
 				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
 				<Item Name="UDP Multicast Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Open.vi"/>
-				<Item Name="NI_VS Custom Device ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/CustomDevice/NI_VS Custom Device ExecutionAPI.lvlib"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="STM Write Meta Data (TCP Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Write Meta Data (TCP Ref).vi"/>
+				<Item Name="stm_MetaDataElement.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/_SubVIs/stm_MetaDataElement.ctl"/>
+				<Item Name="STM Get Connection Reference (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Get Connection Reference (TCP).vi"/>
+				<Item Name="stm_TCP Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Connection Info.ctl"/>
+				<Item Name="stm_TCP Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Write Options.ctl"/>
+				<Item Name="stm_TCP Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Data Info.ctl"/>
+				<Item Name="stm_TCP Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Read Options.ctl"/>
+				<Item Name="STM Read Message (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Read Message (TCP).vi"/>
+				<Item Name="stm_GetIDfromName_.vi" Type="VI" URL="/&lt;userlib&gt;/STM/_SubVIs/stm_GetIDfromName_.vi"/>
+				<Item Name="STM Write Message (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Write Message (TCP).vi"/>
+				<Item Name="stm_TCPConnectionProperties.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Connection Manager/TCP/stm_TCPConnectionProperties.ctl"/>
+				<Item Name="stm_TCPConnectionMethod.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Connection Manager/TCP/stm_TCPConnectionMethod.ctl"/>
+				<Item Name="STM Read Meta Data (TCP Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Read Meta Data (TCP Ref).vi"/>
+				<Item Name="stm_Serial Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Connection Info.ctl"/>
+				<Item Name="stm_Serial Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Read Options.ctl"/>
+				<Item Name="STM Read Meta Data (Serial Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Read Meta Data (Serial Clst).vi"/>
+				<Item Name="STM Read Meta Data (Serial Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Read Meta Data (Serial Ref).vi"/>
+				<Item Name="stm_UDP Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Connection Info.ctl"/>
+				<Item Name="stm_UDP Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Data Info.ctl"/>
+				<Item Name="stm_UDP Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Read Options.ctl"/>
+				<Item Name="STM Read Meta Data (UDP Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Read Meta Data (UDP Ref).vi"/>
+				<Item Name="STM Read Meta Data (UDP Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Read Meta Data (UDP Clst).vi"/>
+				<Item Name="STM Read Meta Data (TCP Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Read Meta Data (TCP Clst).vi"/>
+				<Item Name="STM Read Meta Data.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Read Meta Data.vi"/>
+				<Item Name="stm_Serial Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Data Info.ctl"/>
+				<Item Name="STM Read Message (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Read Message (Serial).vi"/>
+				<Item Name="STM Read Message (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Read Message (UDP).vi"/>
+				<Item Name="STM Read Message.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Read Message.vi"/>
+				<Item Name="stm_Serial Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Write Options.ctl"/>
+				<Item Name="STM Write Message (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Write Message (Serial).vi"/>
+				<Item Name="stm_UDP Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Write Options.ctl"/>
+				<Item Name="STM Write Message (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Write Message (UDP).vi"/>
+				<Item Name="STM Write Message.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Write Message.vi"/>
+				<Item Name="STM Get Connection Reference (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Get Connection Reference (Serial).vi"/>
+				<Item Name="STM Get Connection Reference (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Get Connection Reference (UDP).vi"/>
+				<Item Name="STM Get Connection Reference.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Get Connection Reference.vi"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -250,7 +287,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/Control Addon/Data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D49F0618-9EA9-4DA2-B9D8-82716975CCDF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1D1248BB-4D10-4B76-8746-EAB2A074DB62}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Control Addon Engine.lvlib/RT Driver VI.vi</Property>
@@ -293,7 +330,10 @@
 				<Property Name="Source[3].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 			<Item Name="Workspace Tool" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{9CD93395-6C5F-45E1-9952-71B38AB27D87}</Property>
@@ -316,7 +356,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8E1081BD-092E-449C-AB6E-59204FFF7941}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8DABAEC3-AB1F-446D-BD74-E46118A11344}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
@@ -339,22 +379,18 @@
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib</Property>
 				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>
-				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[11].itemID" Type="Ref"></Property>
-				<Property Name="Source[11].type" Type="Str">Container</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Get PID Configuration.vi</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Close Connection with CD.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Update Configuration.vi</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Get PID Configuration.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Close Connection with CD.vi</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[14].itemID" Type="Ref"></Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Create Connection with CD.vi</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Update Configuration.vi</Property>
-				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
@@ -410,7 +446,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/PID Control Workspace Tool.lvlib/Types</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">16</Property>
+				<Property Name="SourceCount" Type="Int">15</Property>
 			</Item>
 			<Item Name="Control Workspace Objects" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{794F6EF4-86D2-4B3E-B323-2D769632A7B4}</Property>
@@ -461,7 +497,7 @@
 				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Close Connection with CD.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref"></Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[13].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Get PID Configuration.vi</Property>
@@ -602,6 +638,43 @@
 		<Item Name="Control Addon Engine.lvlib" Type="Library" URL="../Engine/Control Addon Engine.lvlib"/>
 		<Item Name="Control Addon Shared.lvlib" Type="Library" URL="../Shared/Control Addon Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="STM Get Connection Reference (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Get Connection Reference (Serial).vi"/>
+				<Item Name="STM Get Connection Reference (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Get Connection Reference (TCP).vi"/>
+				<Item Name="STM Get Connection Reference (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Get Connection Reference (UDP).vi"/>
+				<Item Name="STM Get Connection Reference.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Get Connection Reference.vi"/>
+				<Item Name="STM Read Message (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Read Message (Serial).vi"/>
+				<Item Name="STM Read Message (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Read Message (TCP).vi"/>
+				<Item Name="STM Read Message (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Read Message (UDP).vi"/>
+				<Item Name="STM Read Message.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Read Message.vi"/>
+				<Item Name="STM Read Meta Data (Serial Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Read Meta Data (Serial Clst).vi"/>
+				<Item Name="STM Read Meta Data (Serial Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Read Meta Data (Serial Ref).vi"/>
+				<Item Name="STM Read Meta Data (TCP Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Read Meta Data (TCP Clst).vi"/>
+				<Item Name="STM Read Meta Data (TCP Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Read Meta Data (TCP Ref).vi"/>
+				<Item Name="STM Read Meta Data (UDP Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Read Meta Data (UDP Clst).vi"/>
+				<Item Name="STM Read Meta Data (UDP Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Read Meta Data (UDP Ref).vi"/>
+				<Item Name="STM Read Meta Data.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Read Meta Data.vi"/>
+				<Item Name="STM Write Message (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Write Message (Serial).vi"/>
+				<Item Name="STM Write Message (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Write Message (TCP).vi"/>
+				<Item Name="STM Write Message (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Write Message (UDP).vi"/>
+				<Item Name="STM Write Message.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Write Message.vi"/>
+				<Item Name="stm_GetIDfromName_.vi" Type="VI" URL="/&lt;userlib&gt;/STM/_SubVIs/stm_GetIDfromName_.vi"/>
+				<Item Name="stm_MetaDataElement.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/_SubVIs/stm_MetaDataElement.ctl"/>
+				<Item Name="stm_Serial Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Connection Info.ctl"/>
+				<Item Name="stm_Serial Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Data Info.ctl"/>
+				<Item Name="stm_Serial Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Read Options.ctl"/>
+				<Item Name="stm_Serial Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Write Options.ctl"/>
+				<Item Name="stm_TCP Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Connection Info.ctl"/>
+				<Item Name="stm_TCP Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Data Info.ctl"/>
+				<Item Name="stm_TCP Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Read Options.ctl"/>
+				<Item Name="stm_TCP Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Write Options.ctl"/>
+				<Item Name="stm_TCPConnectionMethod.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Connection Manager/TCP/stm_TCPConnectionMethod.ctl"/>
+				<Item Name="stm_TCPConnectionProperties.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Connection Manager/TCP/stm_TCPConnectionProperties.ctl"/>
+				<Item Name="stm_UDP Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Connection Info.ctl"/>
+				<Item Name="stm_UDP Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Data Info.ctl"/>
+				<Item Name="stm_UDP Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Read Options.ctl"/>
+				<Item Name="stm_UDP Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Write Options.ctl"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -891,6 +964,43 @@ DirectoryIndex index.htm
 		<Item Name="Control Addon Engine.lvlib" Type="Library" URL="../Engine/Control Addon Engine.lvlib"/>
 		<Item Name="Control Addon Shared.lvlib" Type="Library" URL="../Shared/Control Addon Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="STM Get Connection Reference (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Get Connection Reference (Serial).vi"/>
+				<Item Name="STM Get Connection Reference (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Get Connection Reference (TCP).vi"/>
+				<Item Name="STM Get Connection Reference (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Get Connection Reference (UDP).vi"/>
+				<Item Name="STM Get Connection Reference.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Get Connection Reference.vi"/>
+				<Item Name="STM Read Message (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Read Message (Serial).vi"/>
+				<Item Name="STM Read Message (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Read Message (TCP).vi"/>
+				<Item Name="STM Read Message (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Read Message (UDP).vi"/>
+				<Item Name="STM Read Message.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Read Message.vi"/>
+				<Item Name="STM Read Meta Data (Serial Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Read Meta Data (Serial Clst).vi"/>
+				<Item Name="STM Read Meta Data (Serial Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Read Meta Data (Serial Ref).vi"/>
+				<Item Name="STM Read Meta Data (TCP Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Read Meta Data (TCP Clst).vi"/>
+				<Item Name="STM Read Meta Data (TCP Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Read Meta Data (TCP Ref).vi"/>
+				<Item Name="STM Read Meta Data (UDP Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Read Meta Data (UDP Clst).vi"/>
+				<Item Name="STM Read Meta Data (UDP Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Read Meta Data (UDP Ref).vi"/>
+				<Item Name="STM Read Meta Data.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Read Meta Data.vi"/>
+				<Item Name="STM Write Message (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Write Message (Serial).vi"/>
+				<Item Name="STM Write Message (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Write Message (TCP).vi"/>
+				<Item Name="STM Write Message (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Write Message (UDP).vi"/>
+				<Item Name="STM Write Message.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Write Message.vi"/>
+				<Item Name="stm_GetIDfromName_.vi" Type="VI" URL="/&lt;userlib&gt;/STM/_SubVIs/stm_GetIDfromName_.vi"/>
+				<Item Name="stm_MetaDataElement.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/_SubVIs/stm_MetaDataElement.ctl"/>
+				<Item Name="stm_Serial Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Connection Info.ctl"/>
+				<Item Name="stm_Serial Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Data Info.ctl"/>
+				<Item Name="stm_Serial Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Read Options.ctl"/>
+				<Item Name="stm_Serial Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Write Options.ctl"/>
+				<Item Name="stm_TCP Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Connection Info.ctl"/>
+				<Item Name="stm_TCP Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Data Info.ctl"/>
+				<Item Name="stm_TCP Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Read Options.ctl"/>
+				<Item Name="stm_TCP Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Write Options.ctl"/>
+				<Item Name="stm_TCPConnectionMethod.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Connection Manager/TCP/stm_TCPConnectionMethod.ctl"/>
+				<Item Name="stm_TCPConnectionProperties.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Connection Manager/TCP/stm_TCPConnectionProperties.ctl"/>
+				<Item Name="stm_UDP Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Connection Info.ctl"/>
+				<Item Name="stm_UDP Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Data Info.ctl"/>
+				<Item Name="stm_UDP Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Read Options.ctl"/>
+				<Item Name="stm_UDP Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Write Options.ctl"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>

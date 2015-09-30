@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Close Connection with CD.vi" Type="VI" URL="../Close Connection with CD.vi"/>
+	<Item Name="Create Connection with CD.vi" Type="VI" URL="../Create Connection with CD.vi"/>
 	<Item Name="Get PID Configuration.vi" Type="VI" URL="../Get PID Configuration.vi"/>
 	<Item Name="Update Configuration.vi" Type="VI" URL="../Update Configuration.vi"/>
 </Library>

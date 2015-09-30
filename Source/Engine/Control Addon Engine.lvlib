@@ -23,6 +23,7 @@
 	<Item Name="Userlib" Type="Folder">
 		<Item Name="Error Handling API.lvlib" Type="Library" URL="../SubVIs/Error Handling API/Error Handling API.lvlib"/>
 		<Item Name="Inline Async API.lvlib" Type="Library" URL="../SubVIs/Inline Async API/Inline Async API.lvlib"/>
+		<Item Name="STM.lvlib" Type="Library" URL="../SubVIs/STM API/STM.lvlib"/>
 		<Item Name="Stop FG.lvlib" Type="Library" URL="../SubVIs/Stop FG/Stop FG.lvlib"/>
 	</Item>
 	<Item Name="Network Engine.vi" Type="VI" URL="../SubVIs/Network Engine.vi"/>

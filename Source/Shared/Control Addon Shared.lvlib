@@ -40,6 +40,7 @@
 		<Item Name="Search Sysdef for Custom Devices.vi" Type="VI" URL="../Search Sysdef for Custom Devices.vi"/>
 		<Item Name="Search Sysdef for Targets.vi" Type="VI" URL="../Search Sysdef for Targets.vi"/>
 		<Item Name="Select Controller.vi" Type="VI" URL="../Select Controller.vi"/>
+		<Item Name="Send Request over STM.vi" Type="VI" URL="../Send Request over STM.vi"/>
 		<Item Name="Set Output Node Linkage.vi" Type="VI" URL="../../System Explorer/SubVIs/Set Output Node Linkage.vi"/>
 		<Item Name="Update Channel Dependancy.vi" Type="VI" URL="../../System Explorer/SubVIs/Update Channel Dependancy.vi"/>
 	</Item>
