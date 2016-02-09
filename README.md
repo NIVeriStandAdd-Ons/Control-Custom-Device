@@ -5,7 +5,7 @@ This addon provides PID and On/Off (called industrial) control to NI VeriStand. 
 
 ### LabVIEW Version ###
 
-LabVIEW 2013
+LabVIEW 2015
 
 ### Built Availability ###
 
@@ -19,7 +19,8 @@ IP does not support multiple modes for per PID controller.
 
 ### Dependencies ###
 
-LabVIEW Control or LabVIEW RT 2013 (required for PID VIs)
+LabVIEW Control or LabVIEW RT 2015 (required for PID VIs)
+Simple TCP Messaging (STM 2.0.2)
 
 ### License ###
 
