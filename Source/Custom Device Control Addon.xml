@@ -41,6 +41,22 @@
 					<Path>Custom Devices\Control Addon\c\Control Addon Engine VxWorks.llb\RT Driver VI.vi</Path>
 				</Source>
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Control Addon\Control Addon Engine VxWorks.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>		
+			<Source>
+				<SupportedTarget>Linux_32_ARM</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Control Addon\Control Addon Engine LinuxARM.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Control Addon\Control Addon Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Control Addon\Control Addon Engine Linux64.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Control Addon\Control Addon Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>			
 		</SourceDistribution>
 	</CustomDeviceVI>
