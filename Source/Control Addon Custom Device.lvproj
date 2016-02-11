@@ -1384,7 +1384,20 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/Linux_32_ARM</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2DA492B3-EF5C-415B-971D-5D522FEB22C5}</Property>
+				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FDE300F1-E438-4E19-A86D-61E5A905D80D}</Property>
+				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Control Addon Engine.lvlib/RT Driver VI.vi</Property>
@@ -1473,7 +1486,23 @@ DirectoryIndex index.htm
 				<Property Name="Source[6].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/NI VeriStand APIs</Property>
+				<Property Name="Source[7].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[7].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[7].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[7].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[7].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -1654,7 +1683,20 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7F8FE55A-BB13-47BC-8421-5949A7A9195C}</Property>
+				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E0732083-C8A5-4AF3-8ADE-441B969DCC83}</Property>
+				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[0].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[0].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[0].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[3].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[0].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[4].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Control Addon Engine.lvlib/RT Driver VI.vi</Property>
@@ -1748,7 +1790,23 @@ DirectoryIndex index.htm
 				<Property Name="Source[6].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/NI VeriStand APIs</Property>
+				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[7].properties[2].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[3].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[7].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[7].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 		</Item>
 	</Item>
