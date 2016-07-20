@@ -13,7 +13,7 @@
     <Type>Action</Type>
     <Item2Launch>
       <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Initialization VI.vi</Path>
+		<Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\Initialization VI.vi</Path>
     </Item2Launch>
   </InitializationVI>
   <CustomDeviceVI>
@@ -71,14 +71,13 @@
       <GUID>8dfd0406-1a5d-45dd-a1d7-1d4d9090bfa4</GUID>
       <Glyph>
         <Type>To Common Doc Dir</Type>
-			  <Path>Custom Devices\Control Addon\Glyphs\Control.png</Path>
+			  <Path>Custom Devices\Control Addon\Windows\Glyphs\Control.png</Path>
 		  </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		    <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Main Page.vi</Path>
+		    <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
-<!--    
         <MenuItem>
           <GUID>4e51c692-6081-42de-abbc-f98f05d47bc5</GUID>
           <Type>Action</Type>
@@ -88,10 +87,9 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+            <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\EnableDisable Main Page.vi</Path>
           </Item2Launch>
         </MenuItem>
--->
         <MenuItem>
           <GUID>8e2bc51f-d0d6-4f9a-934b-d2c6613f313f</GUID>
           <Type>Action</Type>
@@ -101,7 +99,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Add PID Controller.vi</Path>
+            <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\Add PID Controller.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -113,7 +111,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Add Industrial Controller.vi</Path>
+            <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\Add Industrial Controller.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -208,19 +206,19 @@
       </ButtonList>
       <ActionVIOnDelete>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\ActionVIOnDelete.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\ActionVIOnDelete.vi</Path>
       </ActionVIOnDelete>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\ActionVIOnLoad.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\ActionVIOnLoad.vi</Path>
       </ActionVIOnLoad>
       <ActionVIOnSave>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\ActionVIOnSave.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\ActionVIOnSave.vi</Path>
       </ActionVIOnSave>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\ActionVIOnCompile.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
     </Page>
     <Page>
@@ -232,11 +230,11 @@
       <GUID>dbd079b4-f3f8-48b6-80e4-b86baf99072c</GUID>
       <Glyph>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Glyphs\Disabled.png</Path>
+        <Path>Custom Devices\Control Addon\Windows\Glyphs\Disabled.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Main Page.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -248,7 +246,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+            <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\EnableDisable Main Page.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -260,7 +258,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Add PID Controller.vi</Path>
+            <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\Add PID Controller.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -272,7 +270,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Add Industrial Controller.vi</Path>
+            <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\Add Industrial Controller.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -367,15 +365,15 @@
       </ButtonList>
       <ActionVIOnDelete>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\ActionVIOnDelete.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\ActionVIOnDelete.vi</Path>
       </ActionVIOnDelete>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\ActionVIOnLoad.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\ActionVIOnLoad.vi</Path>
       </ActionVIOnLoad>
       <ActionVIOnSave>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\ActionVIOnSave.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\ActionVIOnSave.vi</Path>
       </ActionVIOnSave>
     </Page>
     <Page>
@@ -387,11 +385,11 @@
       <GUID>a4932adc-e764-4f49-9467-a4fe8850f52e</GUID>
       <Glyph>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Glyphs\PID Control.png</Path>
+        <Path>Custom Devices\Control Addon\Windows\Glyphs\PID Control.png</Path>
 	  	</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Control Addon\Control Addon Configuration.llb\PID Controller.vi</Path>
+		<Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\PID Controller.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -409,7 +407,7 @@
       </RunTimeMenu>
       <ActionVIOnDelete>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\ActionVIOnDelete_Controller.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\ActionVIOnDelete_Controller.vi</Path>
       </ActionVIOnDelete>
     </Page>
     <Page>
@@ -423,11 +421,11 @@
       <GUID>1cc989ca-4b2f-491b-ac05-844f3fc006dc</GUID>
       <Glyph>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Glyphs\parameters.png</Path>
+        <Path>Custom Devices\Control Addon\Windows\Glyphs\parameters.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Control Addon\Control Addon Configuration.llb\PID Parameters.vi</Path>
+		<Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\PID Parameters.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -439,11 +437,11 @@
       <GUID>c3f6d8cf-9ad7-4a46-8584-d15a442091f1</GUID>
       <Glyph>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Glyphs\Industrial Control.png</Path>
+        <Path>Custom Devices\Control Addon\Windows\Glyphs\Industrial Control.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Industrial Controller.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\Industrial Controller.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -461,7 +459,7 @@
       </RunTimeMenu>
       <ActionVIOnDelete>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\ActionVIOnDelete_Controller.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\ActionVIOnDelete_Controller.vi</Path>
       </ActionVIOnDelete>
     </Page>
     <Page>
@@ -475,11 +473,11 @@
       <GUID>96a5c8c8-4405-4e2d-832c-ba7077f33cb8</GUID>
       <Glyph>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Glyphs\parameters.png</Path>
+        <Path>Custom Devices\Control Addon\Windows\Glyphs\parameters.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Industrial Parameters.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\Industrial Parameters.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -493,15 +491,15 @@
       <GUID>0e9f6a7a-1f60-42ed-aebc-7ade1398e17a</GUID>
       <Glyph>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Glyphs\channels.png</Path>
+        <Path>Custom Devices\Control Addon\Windows\Glyphs\channels.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Channels.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\Channels.vi</Path>
       </Item2Launch>
       <ActionVIOnDelete>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\ActionVIOnDelete.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\ActionVIOnDelete.vi</Path>
       </ActionVIOnDelete>
     </Page>
     <Page>
@@ -518,7 +516,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\DBL Channel.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\DBL Channel.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -535,7 +533,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Output Channel.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\Output Channel.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -552,7 +550,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\DBL Channel.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\DBL Channel.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -569,7 +567,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Bool Channel.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\Bool Channel.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -586,7 +584,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Control Addon\Control Addon Configuration.llb\Bool Channel.vi</Path>
+        <Path>Custom Devices\Control Addon\Windows\Control Addon Configuration.llb\Bool Channel.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>
