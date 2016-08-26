@@ -21,6 +21,7 @@ IP does not support multiple modes for per PID controller.
 
 LabVIEW Control or LabVIEW RT 2015 (required for PID VIs)
 Simple TCP Messaging (STM 2.0.2)
+VeriStand Inline Async API is required https://github.com/NIVeriStandAdd-Ons/Inline-Async-API
 
 ### License ###
 
