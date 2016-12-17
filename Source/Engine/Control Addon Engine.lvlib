@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Processes" Type="Folder">
-		<Item Name="Network Command Engine.vi" Type="VI" URL="../SubVIs/Network Command Engine.vi"/>
+		<Item Name="Command Engine.vi" Type="VI" URL="../SubVIs/Command Engine.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Apply PID Parameters.vi" Type="VI" URL="../SubVIs/Apply PID Parameters.vi"/>
