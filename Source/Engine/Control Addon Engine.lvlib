@@ -9,7 +9,6 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Apply PID Parameters.vi" Type="VI" URL="../SubVIs/Apply PID Parameters.vi"/>
 		<Item Name="Close Network Engine.vi" Type="VI" URL="../SubVIs/Close Network Engine.vi"/>
-		<Item Name="Comm Close All Connections.vi" Type="VI" URL="../SubVIs/Comm Close All Connections.vi"/>
 		<Item Name="Digital Debounce Filter.vi" Type="VI" URL="../SubVIs/Digital Debounce Filter.vi"/>
 		<Item Name="Execute Industrial Controllers.vi" Type="VI" URL="../SubVIs/Execute Industrial Controllers.vi"/>
 		<Item Name="Execute PID Controllers.vi" Type="VI" URL="../SubVIs/Execute PID Controllers.vi"/>
@@ -17,7 +16,6 @@
 		<Item Name="Get PID Settings.vi" Type="VI" URL="../SubVIs/Get PID Settings.vi"/>
 		<Item Name="Get RT Configuration.vi" Type="VI" URL="../SubVIs/Get RT Configuration.vi"/>
 		<Item Name="Initialize Network Engine.vi" Type="VI" URL="../SubVIs/Initialize Network Engine.vi"/>
-		<Item Name="Listen for New Connections.vi" Type="VI" URL="../SubVIs/Listen for New Connections.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Network Engine State Variables.ctl" Type="VI" URL="../Types/Network Engine State Variables.ctl"/>
