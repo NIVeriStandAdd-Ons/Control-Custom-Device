@@ -124,12 +124,6 @@
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
-				<Item Name="TCP Connection Manager State Variables.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager State Variables.ctl"/>
-				<Item Name="TCP Connection Manager Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager Reference.ctl"/>
-				<Item Name="TCP Initialize Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Initialize Connection Manager (By Reference).vi"/>
-				<Item Name="Simple Generate Error.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/Simple Generate Error.vi"/>
-				<Item Name="TCP Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager (By Reference).vi"/>
-				<Item Name="TCP Check Connection (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Check Connection (By Reference).vi"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
@@ -673,14 +667,8 @@
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Simple Generate Error.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/Simple Generate Error.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="TCP Check Connection (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Check Connection (By Reference).vi"/>
-				<Item Name="TCP Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager (By Reference).vi"/>
-				<Item Name="TCP Connection Manager Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager Reference.ctl"/>
-				<Item Name="TCP Connection Manager State Variables.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager State Variables.ctl"/>
-				<Item Name="TCP Initialize Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Initialize Connection Manager (By Reference).vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
@@ -979,14 +967,8 @@ DirectoryIndex index.htm
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Simple Generate Error.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/Simple Generate Error.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="TCP Check Connection (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Check Connection (By Reference).vi"/>
-				<Item Name="TCP Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager (By Reference).vi"/>
-				<Item Name="TCP Connection Manager Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager Reference.ctl"/>
-				<Item Name="TCP Connection Manager State Variables.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager State Variables.ctl"/>
-				<Item Name="TCP Initialize Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Initialize Connection Manager (By Reference).vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
@@ -1253,14 +1235,8 @@ DirectoryIndex index.htm
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Simple Generate Error.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/Simple Generate Error.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="TCP Check Connection (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Check Connection (By Reference).vi"/>
-				<Item Name="TCP Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager (By Reference).vi"/>
-				<Item Name="TCP Connection Manager Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager Reference.ctl"/>
-				<Item Name="TCP Connection Manager State Variables.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager State Variables.ctl"/>
-				<Item Name="TCP Initialize Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Initialize Connection Manager (By Reference).vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
@@ -1293,7 +1269,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3939FB3D-726E-4D10-82BD-7FE8FBCCD360}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/Control Addon Engine LinuxARM.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/Control Addon Engine LinuxARM.llb</Property>
@@ -1531,14 +1507,8 @@ DirectoryIndex index.htm
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Simple Generate Error.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/Simple Generate Error.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="TCP Check Connection (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Check Connection (By Reference).vi"/>
-				<Item Name="TCP Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager (By Reference).vi"/>
-				<Item Name="TCP Connection Manager Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager Reference.ctl"/>
-				<Item Name="TCP Connection Manager State Variables.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager State Variables.ctl"/>
-				<Item Name="TCP Initialize Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Initialize Connection Manager (By Reference).vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
@@ -1570,7 +1540,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2B3104C-D323-41E8-B4BA-9185D7889B63}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Control Addon Engine Linux64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Control Addon Engine Linux64.llb</Property>
