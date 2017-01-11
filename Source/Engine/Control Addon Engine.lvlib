@@ -4,11 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Processes" Type="Folder">
-		<Item Name="Command Engine.vi" Type="VI" URL="../SubVIs/Command Engine.vi"/>
+		<Item Name="Network Engine.vi" Type="VI" URL="../SubVIs/Network Engine.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Apply PID Parameters.vi" Type="VI" URL="../SubVIs/Apply PID Parameters.vi"/>
 		<Item Name="Close Network Engine.vi" Type="VI" URL="../SubVIs/Close Network Engine.vi"/>
+		<Item Name="Command Engine.vi" Type="VI" URL="../SubVIs/Command Engine.vi"/>
 		<Item Name="Digital Debounce Filter.vi" Type="VI" URL="../SubVIs/Digital Debounce Filter.vi"/>
 		<Item Name="Execute Industrial Controllers.vi" Type="VI" URL="../SubVIs/Execute Industrial Controllers.vi"/>
 		<Item Name="Execute PID Controllers.vi" Type="VI" URL="../SubVIs/Execute PID Controllers.vi"/>
@@ -22,6 +23,5 @@
 		<Item Name="RT Configuration.ctl" Type="VI" URL="../Types/RT Configuration.ctl"/>
 		<Item Name="RT Driver State Variables.ctl" Type="VI" URL="../Types/RT Driver State Variables.ctl"/>
 	</Item>
-	<Item Name="Network Engine.vi" Type="VI" URL="../SubVIs/Network Engine.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
