@@ -28,17 +28,20 @@
 			<Item Name="PID Control.png" Type="Document" URL="../Glyphs/PID Control.png"/>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
+			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
 		</Item>
 		<Item Name="APIs" Type="Folder">
 			<Item Name="PID Control Host API.lvlib" Type="Library" URL="../APIs/Host API/PID Control Host API.lvlib"/>
 			<Item Name="Host API Example.vi" Type="VI" URL="../APIs/Examples/Host API Example.vi"/>
 		</Item>
-		<Item Name="Control.chm" Type="Document" URL="../Help/Control.chm"/>
+		<Item Name="Help" Type="Folder" URL="../Help">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Custom Device Control Addon.xml" Type="Document" URL="../Custom Device Control Addon.xml"/>
 		<Item Name="Control Addon Engine.lvlib" Type="Library" URL="../Engine/Control Addon Engine.lvlib"/>
 		<Item Name="Control Addon Shared.lvlib" Type="Library" URL="../Shared/Control Addon Shared.lvlib"/>
@@ -132,6 +135,15 @@
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="CHM Generator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Compiled HTML Menu Tool/CHM Generator/CHM Generator.lvclass"/>
+				<Item Name="Keyed Value Tree.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Compiled HTML Menu Tool/Keyed Value Tree/Keyed Value Tree.lvclass"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -162,6 +174,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Control Addon/Windows</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/LLB Pre-Build CHM Build.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -176,7 +189,7 @@
 				<Property Name="Destination[4].destName" Type="Str">XML Folder</Property>
 				<Property Name="Destination[4].path" Type="Path">../Built/Custom Devices/Control Addon</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{59A0CD23-9097-44F2-95DE-FDD42604BA7D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B8AC9B8C-90D0-453D-9F5D-EB4AAB642583}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -237,16 +250,16 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Glyphs</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Control.chm</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Custom Device Control Addon.xml</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Custom Device Control Addon.xml</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Control Addon Shared.lvlib</Property>
-				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Control Addon Shared.lvlib</Property>
+				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Help/Control.chm</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -640,7 +653,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Control Addon Engine.lvlib" Type="Library" URL="../Engine/Control Addon Engine.lvlib"/>
@@ -925,7 +938,7 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Control Addon Engine.lvlib" Type="Library" URL="../Engine/Control Addon Engine.lvlib"/>
@@ -1193,7 +1206,7 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
 		<Item Name="Control Addon Engine.lvlib" Type="Library" URL="../Engine/Control Addon Engine.lvlib"/>
 		<Item Name="Control Addon Shared.lvlib" Type="Library" URL="../Shared/Control Addon Shared.lvlib"/>
@@ -1465,7 +1478,7 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
 		<Item Name="Control Addon Engine.lvlib" Type="Library" URL="../Engine/Control Addon Engine.lvlib"/>
 		<Item Name="Control Addon Shared.lvlib" Type="Library" URL="../Shared/Control Addon Shared.lvlib"/>
