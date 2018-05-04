@@ -3,7 +3,7 @@ Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description:  This addon allows you to do two types of control methods. The first is a single mode PID control with gain scheduling and bumbless manual control. The second is simple on and off control for industrial actuators.
+Description:  This addon provides PID and On/Off (called industrial) control to NI VeriStand. Additionally, it provides special workspace objects tailored towards control.  Last, a PID tuning tool is provided to allow controlled gain changes.
 XB-Eula:  
 Priority: standard
 Homepage: http://www.ni.com
