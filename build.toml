@@ -1,0 +1,46 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\control_addon'
+
+[projects.cd]
+path = 'Source\Control Addon Custom Device.lvproj'
+
+[[build.steps]]
+name = 'Configuration Library'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Configuration Release'
+
+[[build.steps]]
+name = 'Engine Libraries'
+type = 'lvBuildSpecAllTargets'
+project = '{cd}'
+build_spec = 'Engine Release'
+
+[[build.steps]]
+name = 'Workspace Object'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Workspace Object'
+
+[[build.steps]]
+name = 'Workspace Tool'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Workspace Tool'
+
+[package]
+type = 'nipkg'
+name = 'control-addon-{veristand_version}'
+dev_xml_path = 'Source\Custom Device Control Addon.xml'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
+
+[[release.steps]]
+name = 'Master Release'
+type = 'githubRelease'
+2015_release_branches = ["master",]
+2016_release_branches = ["master",]
+2017_release_branches = ["master",]
