@@ -3,7 +3,7 @@ Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description:  This add-on allows a user to pull an existing FPGA bitfile into NI VeriStand with little or no modification.
+Description:  This addon allows you to do two types of control methods. The first is a single mode PID control with gain scheduling and bumbless manual control. The second is simple on and off control for industrial actuators.
 XB-Eula:  
 Priority: standard
 Homepage: http://www.ni.com
