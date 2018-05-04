@@ -11,5 +11,5 @@ XB-LanguageSupport: en
 XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: 1.0
-XB-DisplayName: Control Add-On for VeriStand {veristand_version}
+XB-DisplayName: Control Addon for VeriStand {veristand_version}
 Depends: 
