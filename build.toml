@@ -23,7 +23,7 @@ name = 'Workspace Object'
 type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
-build_spec = 'Workspace Object'
+build_spec = 'Control Workspace Objects'
 
 [[build.steps]]
 name = 'Workspace Tool'
