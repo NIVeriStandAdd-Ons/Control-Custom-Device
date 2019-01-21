@@ -9,7 +9,11 @@ LabVIEW 2015
 
 ### Built Availability ###
 
-Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales. 
+https://github.com/NIVeriStandAdd-Ons/Control-Custom-Device/releases 
+
+### Built Dependencies ###
+
+None
 
 ### Quality, Limitations ###
 
@@ -17,7 +21,7 @@ IP has been tested by developer. It meets VeriStand addon coding best practices.
 
 IP does not support multiple modes for per PID controller.
 
-### Dependencies ###
+### Source Dependencies ###
 
 LabVIEW Control or LabVIEW RT 2015 (required for PID VIs)
 
