@@ -14,6 +14,7 @@
 		<Item Name="Digital Debounce Filter.vi" Type="VI" URL="../SubVIs/Digital Debounce Filter.vi"/>
 		<Item Name="Execute Industrial Controllers.vi" Type="VI" URL="../SubVIs/Execute Industrial Controllers.vi"/>
 		<Item Name="Execute PID Controllers.vi" Type="VI" URL="../SubVIs/Execute PID Controllers.vi"/>
+		<Item Name="Format Debug String.vi" Type="VI" URL="../SubVIs/Format Debug String.vi"/>
 		<Item Name="Get PID Gains from Schedule.vi" Type="VI" URL="../SubVIs/Get PID Gains from Schedule.vi"/>
 		<Item Name="Get PID Settings.vi" Type="VI" URL="../SubVIs/Get PID Settings.vi"/>
 		<Item Name="Get RT Configuration.vi" Type="VI" URL="../SubVIs/Get RT Configuration.vi"/>

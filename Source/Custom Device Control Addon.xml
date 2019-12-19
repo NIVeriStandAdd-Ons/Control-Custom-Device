@@ -5,7 +5,7 @@
     <eng>National Instruments::Control Addon</eng>
     <loc>National Instruments::Control Addon</loc>
   </AddMenu>
-  <Version>1.0.0</Version>
+  <Version>1.0.1</Version>
   <Type>Inline Model Interface</Type>
   <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>8dfd0406-1a5d-45dd-a1d7-1d4d9090bfa4</MainPageGUID>
