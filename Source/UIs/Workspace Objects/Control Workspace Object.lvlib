@@ -9,6 +9,7 @@
 		<Item Name="Get Controller Variables Ranges.vi" Type="VI" URL="../SubVIs/Get Controller Variables Ranges.vi"/>
 		<Item Name="Initialize Workspace Control Refs.vi" Type="VI" URL="../SubVIs/Initialize Workspace Control Refs.vi"/>
 		<Item Name="UDP Data Engine.vi" Type="VI" URL="../SubVIs/UDP Data Engine.vi"/>
+		<Item Name="UI Set DisableState.vi" Type="VI" URL="../SubVIs/UI Set DisableState.vi"/>
 	</Item>
 	<Item Name="Control - Industrial Control.vi" Type="VI" URL="../Control - Industrial Control.vi"/>
 	<Item Name="Control - PID Control.vi" Type="VI" URL="../Control - PID Control.vi"/>

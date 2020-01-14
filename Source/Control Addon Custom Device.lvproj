@@ -46,8 +46,8 @@
 		<Item Name="Control Addon Engine.lvlib" Type="Library" URL="../Engine/Control Addon Engine.lvlib"/>
 		<Item Name="Control Addon Shared.lvlib" Type="Library" URL="../Shared/Control Addon Shared.lvlib"/>
 		<Item Name="Control Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/Control Addon System Explorer.lvlib"/>
-		<Item Name="PID Control Workspace Tool.lvlib" Type="Library" URL="../Workspace Tool/PID Control Workspace Tool.lvlib"/>
-		<Item Name="Control Workspace Object.lvlib" Type="Library" URL="../Workspace Objects/Control Workspace Object.lvlib"/>
+		<Item Name="Control Workspace Tool.lvlib" Type="Library" URL="../UIs/Workspace Tool/Control Workspace Tool.lvlib"/>
+		<Item Name="Control Workspace Object.lvlib" Type="Library" URL="../UIs/Workspace Objects/Control Workspace Object.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -383,7 +383,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8DABAEC3-AB1F-446D-BD74-E46118A11344}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CDE1F76A-6F74-4C90-A458-BC24B4C45AF6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
@@ -418,6 +418,9 @@
 				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[14].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Create Connection with CD.vi</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Control Workspace Tool.lvlib/PID - Tool.rtm</Property>
+				<Property Name="Source[15].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
@@ -454,11 +457,11 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Glyphs</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/PID Control Workspace Tool.lvlib</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Control Workspace Tool.lvlib</Property>
 				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/PID Control Workspace Tool.lvlib/PID - Tool.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Control Workspace Tool.lvlib/PID - Tool.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
@@ -467,13 +470,13 @@
 				<Property Name="Source[7].type" Type="Str">Library</Property>
 				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/PID Control Workspace Tool.lvlib/SubVIs</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Control Workspace Tool.lvlib/SubVIs</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/PID Control Workspace Tool.lvlib/Types</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Control Workspace Tool.lvlib/Types</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">15</Property>
+				<Property Name="SourceCount" Type="Int">16</Property>
 			</Item>
 			<Item Name="Control Workspace Objects" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{794F6EF4-86D2-4B3E-B323-2D769632A7B4}</Property>
@@ -496,7 +499,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A72DB86D-D962-41D3-B8F6-C947DC161F51}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CDE1F76A-6F74-4C90-A458-BC24B4C45AF6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
@@ -519,38 +522,28 @@
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib</Property>
 				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>
-				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[11].itemID" Type="Ref"></Property>
-				<Property Name="Source[11].type" Type="Str">Container</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Get PID Configuration.vi</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[12].itemID" Type="Ref"></Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Update Configuration.vi</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Get PID Configuration.vi</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Control Workspace Object.lvlib/Control - Industrial Control.vi</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[14].itemID" Type="Ref"></Property>
-				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/APIs/PID Control Host API.lvlib/Update Configuration.vi</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Control Workspace Object.lvlib</Property>
+				<Property Name="Source[14].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[14].type" Type="Str">Library</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Control Workspace Object.lvlib/Control - PID Control.vi</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Control Workspace Object.lvlib/Control - Industrial Control.vi</Property>
-				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[16].type" Type="Str">VI</Property>
-				<Property Name="Source[17].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Control Workspace Object.lvlib</Property>
-				<Property Name="Source[17].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[17].type" Type="Str">Library</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Control Workspace Object.lvlib/Control - PID Control.vi</Property>
-				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[18].type" Type="Str">VI</Property>
-				<Property Name="Source[19].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[19].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Control Workspace Object.lvlib/SubVIs</Property>
-				<Property Name="Source[19].type" Type="Str">Container</Property>
+				<Property Name="Source[16].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Control Workspace Object.lvlib/SubVIs</Property>
+				<Property Name="Source[16].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
@@ -587,11 +580,11 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Glyphs</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/PID Control Workspace Tool.lvlib</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Control Workspace Tool.lvlib</Property>
 				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/PID Control Workspace Tool.lvlib/PID - Tool.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Control Workspace Tool.lvlib/PID - Tool.vi</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Control Addon Shared.lvlib</Property>
@@ -599,13 +592,13 @@
 				<Property Name="Source[7].type" Type="Str">Library</Property>
 				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/PID Control Workspace Tool.lvlib/SubVIs</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Control Workspace Tool.lvlib/SubVIs</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/PID Control Workspace Tool.lvlib/Types</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Control Workspace Tool.lvlib/Types</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">20</Property>
+				<Property Name="SourceCount" Type="Int">17</Property>
 			</Item>
 		</Item>
 	</Item>
