@@ -32,6 +32,13 @@ project = '{cd}'
 target = 'My Computer'
 build_spec = 'Workspace Tool'
 
+[[build.steps]]
+name = 'Workspace Tool EXE'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Workspace Tool EXE'
+
 [package]
 type = 'nipkg'
 name = 'control-addon-{veristand_version}'

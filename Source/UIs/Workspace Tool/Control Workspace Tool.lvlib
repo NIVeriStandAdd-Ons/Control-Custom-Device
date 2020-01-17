@@ -9,11 +9,13 @@
 		<Item Name="Get and Check PID Parameters.vi" Type="VI" URL="../SubVIs/Get and Check PID Parameters.vi"/>
 		<Item Name="Get Targets and Devices via Storage API.vi" Type="VI" URL="../SubVIs/Get Targets and Devices via Storage API.vi"/>
 		<Item Name="Select Custom Device.vi" Type="VI" URL="../SubVIs/Select Custom Device.vi"/>
+		<Item Name="UI Set DisableState.vi" Type="VI" URL="../SubVIs/UI Set DisableState.vi"/>
 		<Item Name="Update PID Parameters Listbox.vi" Type="VI" URL="../SubVIs/Update PID Parameters Listbox.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="CD Saved State.ctl" Type="VI" URL="../Types/CD Saved State.ctl"/>
 		<Item Name="Tool State Variables.ctl" Type="VI" URL="../Types/Tool State Variables.ctl"/>
+		<Item Name="UI Refs.ctl" Type="VI" URL="../Types/UI Refs.ctl"/>
 	</Item>
 	<Item Name="PID - Tool.rtm" Type="Document" URL="../PID - Tool.rtm"/>
 	<Item Name="PID - Tool.vi" Type="VI" URL="../PID - Tool.vi"/>
