@@ -10,7 +10,6 @@
 		<Item Name="Get Controllers via Storage API.vi" Type="VI" URL="../SubVIs/Get Controllers via Storage API.vi"/>
 		<Item Name="Get Dependent Nodes from SysDef Root.vi" Type="VI" URL="../SubVIs/Get Dependent Nodes from SysDef Root.vi"/>
 		<Item Name="Initialize Workspace Control Refs.vi" Type="VI" URL="../SubVIs/Initialize Workspace Control Refs.vi"/>
-		<Item Name="Manage Setpoint Channel.vi" Type="VI" URL="../SubVIs/Manage Setpoint Channel.vi"/>
 		<Item Name="Select Controller.vi" Type="VI" URL="../SubVIs/Select Controller.vi"/>
 		<Item Name="UDP Data Engine.vi" Type="VI" URL="../SubVIs/UDP Data Engine.vi"/>
 		<Item Name="UI Set DisableState.vi" Type="VI" URL="../SubVIs/UI Set DisableState.vi"/>
