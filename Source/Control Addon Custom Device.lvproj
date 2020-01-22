@@ -386,7 +386,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2BBC35E1-39B1-4FB0-BAE9-2E9594D81532}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EDC6A9CB-A5F1-4396-AB2E-8CE90D2F5CCF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
@@ -637,7 +637,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{33CC42D5-DADE-491E-8D69-E28BB7ACE367}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PID Tool.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Workspace Tools/PID Tool/PID Tool.exe</Property>
