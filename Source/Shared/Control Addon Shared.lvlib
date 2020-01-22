@@ -6,7 +6,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
-			<Item Name="Action.ctl" Type="VI" URL="../Types/Action.ctl"/>
 			<Item Name="Compiled Industrial Parameters.ctl" Type="VI" URL="../Types/Compiled Industrial Parameters.ctl"/>
 			<Item Name="Compiled Industrial Settings.ctl" Type="VI" URL="../Types/Compiled Industrial Settings.ctl"/>
 			<Item Name="Compiled PID Settings.ctl" Type="VI" URL="../Types/Compiled PID Settings.ctl"/>
@@ -16,32 +15,13 @@
 			<Item Name="Get Settings Message.ctl" Type="VI" URL="../Types/Get Settings Message.ctl"/>
 			<Item Name="Industrial Parameters.ctl" Type="VI" URL="../Types/Industrial Parameters.ctl"/>
 			<Item Name="PID Parameters.ctl" Type="VI" URL="../Types/PID Parameters.ctl"/>
-			<Item Name="UDP Streaming Command Cluster.ctl" Type="VI" URL="../Types/UDP Streaming Command Cluster.ctl"/>
-			<Item Name="UDP Streaming State.ctl" Type="VI" URL="../Types/UDP Streaming State.ctl"/>
-			<Item Name="UI.Refs.ctl" Type="VI" URL="../Types/UI.Refs.ctl"/>
 			<Item Name="Update Parameters Message.ctl" Type="VI" URL="../Types/Update Parameters Message.ctl"/>
-			<Item Name="Workspace Object Cached Settings.ctl" Type="VI" URL="../Types/Workspace Object Cached Settings.ctl"/>
-			<Item Name="Workspace Object State Variables.ctl" Type="VI" URL="../Types/Workspace Object State Variables.ctl"/>
 		</Item>
-		<Item Name="Add Industrial Controller.vi" Type="VI" URL="../Add Industrial Controller.vi"/>
-		<Item Name="Add PID Controller.vi" Type="VI" URL="../Add PID Controller.vi"/>
 		<Item Name="Add PID Parameter Row.vi" Type="VI" URL="../Add PID Parameter Row.vi"/>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
-		<Item Name="Controller Settings FG.vi" Type="VI" URL="../Controller Settings FG.vi"/>
 		<Item Name="Delete PID Parameter Row.vi" Type="VI" URL="../Delete PID Parameter Row.vi"/>
 		<Item Name="Export PID Parameters.vi" Type="VI" URL="../Export PID Parameters.vi"/>
-		<Item Name="Get Controllers via Storage API.vi" Type="VI" URL="../Get Controllers via Storage API.vi"/>
-		<Item Name="Get Dependent Nodes from SysDef Root.vi" Type="VI" URL="../Get Dependent Nodes from SysDef Root.vi"/>
 		<Item Name="Import PID Parameters.vi" Type="VI" URL="../Import PID Parameters.vi"/>
-		<Item Name="Industrial Parameters FG.vi" Type="VI" URL="../Industrial Parameters FG.vi"/>
 		<Item Name="Manage Menu Items.vi" Type="VI" URL="../Manage Menu Items.vi"/>
-		<Item Name="Manage Setpoint Channel.vi" Type="VI" URL="../Manage Setpoint Channel.vi"/>
-		<Item Name="PID Parameters FG.vi" Type="VI" URL="../PID Parameters FG.vi"/>
-		<Item Name="Remove IP Address from CD Path.vi" Type="VI" URL="../Remove IP Address from CD Path.vi"/>
-		<Item Name="Search Sysdef for Custom Devices.vi" Type="VI" URL="../Search Sysdef for Custom Devices.vi"/>
-		<Item Name="Search Sysdef for Targets.vi" Type="VI" URL="../Search Sysdef for Targets.vi"/>
-		<Item Name="Select Controller.vi" Type="VI" URL="../Select Controller.vi"/>
-		<Item Name="Set Output Node Linkage.vi" Type="VI" URL="../Set Output Node Linkage.vi"/>
-		<Item Name="Update Channel Dependancy.vi" Type="VI" URL="../Update Channel Dependancy.vi"/>
 	</Item>
 </Library>

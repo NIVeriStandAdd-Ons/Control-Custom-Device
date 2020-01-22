@@ -5,6 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Search Sysdef for Custom Devices.vi" Type="VI" URL="../SubVIs/Search Sysdef for Custom Devices.vi"/>
+		<Item Name="Search Sysdef for Targets.vi" Type="VI" URL="../SubVIs/Search Sysdef for Targets.vi"/>
 		<Item Name="UI.Addon.Path.Parse.vi" Type="VI" URL="../SubVIs/UI.Addon.Path.Parse.vi"/>
 		<Item Name="UI.Connection.State.Get.vi" Type="VI" URL="../SubVIs/UI.Connection.State.Get.vi"/>
 		<Item Name="UI.Menu.Config.State.Set.vi" Type="VI" URL="../SubVIs/UI.Menu.Config.State.Set.vi"/>

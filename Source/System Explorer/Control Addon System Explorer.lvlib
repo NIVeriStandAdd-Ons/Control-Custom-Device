@@ -24,24 +24,36 @@
 				<Item Name="PID Parameters.vi" Type="VI" URL="../PID Parameters.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
+				<Item Name="Add Industrial Controller.vi" Type="VI" URL="../RTMs/Add Industrial Controller.vi"/>
+				<Item Name="Add PID Controller.vi" Type="VI" URL="../RTMs/Add PID Controller.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTMs/EnableDisable Main Page.vi"/>
+				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../RTMs/ExportConfigurationToFile.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Check Linked Node.vi" Type="VI" URL="../SubVIs/Check Linked Node.vi"/>
+			<Item Name="Controller Settings FG.vi" Type="VI" URL="../SubVIs/Controller Settings FG.vi"/>
 			<Item Name="Export from Listbox to CSV.vi" Type="VI" URL="../SubVIs/Export from Listbox to CSV.vi"/>
 			<Item Name="Get Industrial Controllers.vi" Type="VI" URL="../SubVIs/Get Industrial Controllers.vi"/>
 			<Item Name="Get PID Controllers.vi" Type="VI" URL="../SubVIs/Get PID Controllers.vi"/>
+			<Item Name="Industrial Parameters FG.vi" Type="VI" URL="../SubVIs/Industrial Parameters FG.vi"/>
 			<Item Name="Initialize Channel Browser.vi" Type="VI" URL="../SubVIs/Initialize Channel Browser.vi"/>
 			<Item Name="Initialize PID Controller Channel Browsers.vi" Type="VI" URL="../SubVIs/Initialize PID Controller Channel Browsers.vi"/>
 			<Item Name="Initialize PID Parameters Channel Browsers.vi" Type="VI" URL="../SubVIs/Initialize PID Parameters Channel Browsers.vi"/>
 			<Item Name="Initialize PID Settings.vi" Type="VI" URL="../SubVIs/Initialize PID Settings.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
+			<Item Name="Manage Setpoint Channel.vi" Type="VI" URL="../SubVIs/Manage Setpoint Channel.vi"/>
+			<Item Name="PID Parameters FG.vi" Type="VI" URL="../SubVIs/PID Parameters FG.vi"/>
+			<Item Name="Prompt User for Init Type.vi" Type="VI" URL="../SubVIs/Prompt User for Init Type.vi"/>
+			<Item Name="Set Output Node Linkage.vi" Type="VI" URL="../SubVIs/Set Output Node Linkage.vi"/>
+			<Item Name="Update Channel Dependancy.vi" Type="VI" URL="../SubVIs/Update Channel Dependancy.vi"/>
 			<Item Name="Update PID Parameters.vi" Type="VI" URL="../SubVIs/Update PID Parameters.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
+			<Item Name="Action.ctl" Type="VI" URL="../Types/Action.ctl"/>
 			<Item Name="PID Controller Channel Browser Refs.ctl" Type="VI" URL="../Types/PID Controller Channel Browser Refs.ctl"/>
 			<Item Name="PID Parameters Channel Browser Refs.ctl" Type="VI" URL="../Types/PID Parameters Channel Browser Refs.ctl"/>
 		</Item>

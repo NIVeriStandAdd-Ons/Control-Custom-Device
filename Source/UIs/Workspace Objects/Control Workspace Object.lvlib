@@ -7,9 +7,20 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Close Workspace Control Refs.vi" Type="VI" URL="../SubVIs/Close Workspace Control Refs.vi"/>
 		<Item Name="Get Controller Variables Ranges.vi" Type="VI" URL="../SubVIs/Get Controller Variables Ranges.vi"/>
+		<Item Name="Get Controllers via Storage API.vi" Type="VI" URL="../SubVIs/Get Controllers via Storage API.vi"/>
+		<Item Name="Get Dependent Nodes from SysDef Root.vi" Type="VI" URL="../SubVIs/Get Dependent Nodes from SysDef Root.vi"/>
 		<Item Name="Initialize Workspace Control Refs.vi" Type="VI" URL="../SubVIs/Initialize Workspace Control Refs.vi"/>
+		<Item Name="Manage Setpoint Channel.vi" Type="VI" URL="../SubVIs/Manage Setpoint Channel.vi"/>
+		<Item Name="Select Controller.vi" Type="VI" URL="../SubVIs/Select Controller.vi"/>
 		<Item Name="UDP Data Engine.vi" Type="VI" URL="../SubVIs/UDP Data Engine.vi"/>
 		<Item Name="UI Set DisableState.vi" Type="VI" URL="../SubVIs/UI Set DisableState.vi"/>
+	</Item>
+	<Item Name="Types" Type="Folder">
+		<Item Name="UDP Streaming Command Cluster.ctl" Type="VI" URL="../Types/UDP Streaming Command Cluster.ctl"/>
+		<Item Name="UDP Streaming State.ctl" Type="VI" URL="../Types/UDP Streaming State.ctl"/>
+		<Item Name="UI.Refs.ctl" Type="VI" URL="../Types/UI.Refs.ctl"/>
+		<Item Name="Workspace Object Cached Settings.ctl" Type="VI" URL="../Types/Workspace Object Cached Settings.ctl"/>
+		<Item Name="Workspace Object State Variables.ctl" Type="VI" URL="../Types/Workspace Object State Variables.ctl"/>
 	</Item>
 	<Item Name="Control - Industrial Control.vi" Type="VI" URL="../Control - Industrial Control.vi"/>
 	<Item Name="Control - PID Control.vi" Type="VI" URL="../Control - PID Control.vi"/>
