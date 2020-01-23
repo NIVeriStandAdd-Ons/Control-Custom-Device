@@ -51,6 +51,7 @@
 			<Item Name="Set Output Node Linkage.vi" Type="VI" URL="../SubVIs/Set Output Node Linkage.vi"/>
 			<Item Name="Update Channel Dependancy.vi" Type="VI" URL="../SubVIs/Update Channel Dependancy.vi"/>
 			<Item Name="Update PID Parameters.vi" Type="VI" URL="../SubVIs/Update PID Parameters.vi"/>
+			<Item Name="Upgrade Addon to Latest Version.vi" Type="VI" URL="../SubVIs/Upgrade Addon to Latest Version.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Action.ctl" Type="VI" URL="../Types/Action.ctl"/>
