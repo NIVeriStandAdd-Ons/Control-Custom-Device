@@ -48,10 +48,8 @@
 			<Item Name="Manage Setpoint Channel.vi" Type="VI" URL="../SubVIs/Manage Setpoint Channel.vi"/>
 			<Item Name="PID Parameters FG.vi" Type="VI" URL="../SubVIs/PID Parameters FG.vi"/>
 			<Item Name="Prompt User for Init Type.vi" Type="VI" URL="../SubVIs/Prompt User for Init Type.vi"/>
-			<Item Name="Set Output Node Linkage.vi" Type="VI" URL="../SubVIs/Set Output Node Linkage.vi"/>
 			<Item Name="Update Channel Dependancy.vi" Type="VI" URL="../SubVIs/Update Channel Dependancy.vi"/>
 			<Item Name="Update PID Parameters.vi" Type="VI" URL="../SubVIs/Update PID Parameters.vi"/>
-			<Item Name="Upgrade Addon to Latest Version.vi" Type="VI" URL="../SubVIs/Upgrade Addon to Latest Version.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Action.ctl" Type="VI" URL="../Types/Action.ctl"/>

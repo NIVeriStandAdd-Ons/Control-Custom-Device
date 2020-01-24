@@ -5,6 +5,9 @@ archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\c
 [projects.cd]
 path = 'Source\Control Addon Custom Device.lvproj'
 
+[projects.api]
+path = 'Source\Diagnostics Addon SysDef API.lvproj'
+
 [[build.steps]]
 name = 'Configuration Library'
 type = 'lvBuildSpec'
@@ -38,6 +41,13 @@ type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
 build_spec = 'Workspace Tool EXE'
+
+[[build.steps]]
+name = 'SysDef API'
+type = 'lvBuildSpec'
+project = '{api}'
+target = 'My Computer'
+build_spec = 'System Definition API'
 
 [package]
 type = 'nipkg'
