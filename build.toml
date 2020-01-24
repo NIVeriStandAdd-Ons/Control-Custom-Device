@@ -6,7 +6,7 @@ archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\c
 path = 'Source\Control Addon Custom Device.lvproj'
 
 [projects.api]
-path = 'Source\Diagnostics Addon SysDef API.lvproj'
+path = 'Source\Control Addon SysDef API.lvproj'
 
 [[build.steps]]
 name = 'Configuration Library'
