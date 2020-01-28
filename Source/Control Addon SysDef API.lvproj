@@ -13,10 +13,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Utilities" Type="Folder">
-			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
+		<Item Name="System Definition API" Type="Folder">
+			<Item Name="Control System Definition API.lvlib" Type="Library" URL="../APIs/System Definition API/Control System Definition API.lvlib"/>
 		</Item>
-		<Item Name="Control System Definition API.lvlib" Type="Library" URL="../System Definition API/Control System Definition API.lvlib"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utilites/Copy .LLB to NI VeriStand dir.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
@@ -61,7 +63,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{82F9B414-6FE4-49CD-AAF9-C12455559BAC}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Control System Definition API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/Control Addon/Windows/System Definition API/Control System Definition API.lvlibp</Property>
@@ -71,10 +73,10 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/Control Addon/Windows/System Definition API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F2383829-FA54-433C-836C-E95C03FB198A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FD9AA774-5BE8-46CA-BA45-8AD7E352268D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Control System Definition API.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/System Definition API/Control System Definition API.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
