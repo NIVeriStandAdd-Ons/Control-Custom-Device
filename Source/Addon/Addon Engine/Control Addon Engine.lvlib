@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Processes" Type="Folder">
-		<Item Name="Network Engine.vi" Type="VI" URL="../SubVIs/Network Engine.vi"/>
+		<Item Name="Network Engine.vi" Type="VI" URL="../Processes/Network Engine.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Apply PID Parameters.vi" Type="VI" URL="../SubVIs/Apply PID Parameters.vi"/>

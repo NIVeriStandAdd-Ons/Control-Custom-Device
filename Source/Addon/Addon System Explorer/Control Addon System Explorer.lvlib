@@ -14,14 +14,14 @@
 				<Item Name="ActionVIOnSave.vi" Type="VI" URL="../Actions/ActionVIOnSave.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Bool Channel.vi" Type="VI" URL="../Bool Channel.vi"/>
-				<Item Name="Channels.vi" Type="VI" URL="../Channels.vi"/>
-				<Item Name="DBL Channel.vi" Type="VI" URL="../DBL Channel.vi"/>
-				<Item Name="Industrial Controller.vi" Type="VI" URL="../Industrial Controller.vi"/>
-				<Item Name="Industrial Parameters.vi" Type="VI" URL="../Industrial Parameters.vi"/>
-				<Item Name="Output Channel.vi" Type="VI" URL="../Output Channel.vi"/>
-				<Item Name="PID Controller.vi" Type="VI" URL="../PID Controller.vi"/>
-				<Item Name="PID Parameters.vi" Type="VI" URL="../PID Parameters.vi"/>
+				<Item Name="Bool Channel.vi" Type="VI" URL="../Extra Pages/Bool Channel.vi"/>
+				<Item Name="Channels.vi" Type="VI" URL="../Extra Pages/Channels.vi"/>
+				<Item Name="DBL Channel.vi" Type="VI" URL="../Extra Pages/DBL Channel.vi"/>
+				<Item Name="Industrial Controller.vi" Type="VI" URL="../Extra Pages/Industrial Controller.vi"/>
+				<Item Name="Industrial Parameters.vi" Type="VI" URL="../Extra Pages/Industrial Parameters.vi"/>
+				<Item Name="Output Channel.vi" Type="VI" URL="../Extra Pages/Output Channel.vi"/>
+				<Item Name="PID Controller.vi" Type="VI" URL="../Extra Pages/PID Controller.vi"/>
+				<Item Name="PID Parameters.vi" Type="VI" URL="../Extra Pages/PID Parameters.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="Add Industrial Controller.vi" Type="VI" URL="../RTMs/Add Industrial Controller.vi"/>

@@ -34,6 +34,17 @@
 	<Property Name="Serialized ACL" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Add PID Parameter Row.vi" Type="VI" URL="../SubVIs/Add PID Parameter Row.vi"/>
+			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
+			<Item Name="Delete PID Parameter Row.vi" Type="VI" URL="../SubVIs/Delete PID Parameter Row.vi"/>
+			<Item Name="Export PID Parameters.vi" Type="VI" URL="../SubVIs/Export PID Parameters.vi"/>
+			<Item Name="Force Outputs Mapping.vi" Type="VI" URL="../SubVIs/Force Outputs Mapping.vi"/>
+			<Item Name="Import PID Parameters.vi" Type="VI" URL="../SubVIs/Import PID Parameters.vi"/>
+			<Item Name="Manage Menu Items.vi" Type="VI" URL="../SubVIs/Manage Menu Items.vi"/>
+			<Item Name="Set Output Node Linkage.vi" Type="VI" URL="../SubVIs/Set Output Node Linkage.vi"/>
+			<Item Name="Upgrade Addon to Latest Version.vi" Type="VI" URL="../SubVIs/Upgrade Addon to Latest Version.vi"/>
+		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Compiled Industrial Parameters.ctl" Type="VI" URL="../Types/Compiled Industrial Parameters.ctl"/>
 			<Item Name="Compiled Industrial Settings.ctl" Type="VI" URL="../Types/Compiled Industrial Settings.ctl"/>
@@ -46,14 +57,5 @@
 			<Item Name="PID Parameters.ctl" Type="VI" URL="../Types/PID Parameters.ctl"/>
 			<Item Name="Update Parameters Message.ctl" Type="VI" URL="../Types/Update Parameters Message.ctl"/>
 		</Item>
-		<Item Name="Add PID Parameter Row.vi" Type="VI" URL="../Add PID Parameter Row.vi"/>
-		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
-		<Item Name="Delete PID Parameter Row.vi" Type="VI" URL="../Delete PID Parameter Row.vi"/>
-		<Item Name="Export PID Parameters.vi" Type="VI" URL="../Export PID Parameters.vi"/>
-		<Item Name="Force Outputs Mapping.vi" Type="VI" URL="../Force Outputs Mapping.vi"/>
-		<Item Name="Import PID Parameters.vi" Type="VI" URL="../Import PID Parameters.vi"/>
-		<Item Name="Manage Menu Items.vi" Type="VI" URL="../Manage Menu Items.vi"/>
-		<Item Name="Set Output Node Linkage.vi" Type="VI" URL="../Set Output Node Linkage.vi"/>
-		<Item Name="Upgrade Addon to Latest Version.vi" Type="VI" URL="../Upgrade Addon to Latest Version.vi"/>
 	</Item>
 </Library>
