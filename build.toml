@@ -3,7 +3,7 @@ build_output_dir = 'Built'
 archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\control_addon'
 
 [projects.cd]
-path = 'Source\Control Addon Custom Device.lvproj'
+path = 'Source\Control Addon.lvproj'
 
 [projects.api]
 path = 'Source\Control Addon SysDef API.lvproj'
@@ -52,7 +52,7 @@ build_spec = 'System Definition API'
 [package]
 type = 'nipkg'
 name = 'control-addon-{veristand_version}'
-dev_xml_path = 'Source\Custom Device Control Addon.xml'
+dev_xml_path = 'Source\Addon\Custom Device Control Addon.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
 
 [[release.steps]]
