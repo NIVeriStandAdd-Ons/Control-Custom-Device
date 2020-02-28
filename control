@@ -1,6 +1,6 @@
-Package: control-addon-{veristand_version}
+Package: ni-control-addon-{veristand_version}
 Version: {nipkg_version}
-Architecture: windows_x64
+Architecture: windows_all
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
 Description:  This addon provides PID and On/Off (called industrial) control to NI VeriStand. Additionally, it provides special workspace objects tailored towards control.  Last, a PID tuning tool is provided to allow controlled gain changes.

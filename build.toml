@@ -51,7 +51,7 @@ build_spec = 'System Definition API'
 
 [package]
 type = 'nipkg'
-name = 'control-addon-{veristand_version}'
+name = 'ni-control-addon-{veristand_version}'
 dev_xml_path = 'Source\Addon\Custom Device Control Addon.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
 
