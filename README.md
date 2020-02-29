@@ -1,11 +1,19 @@
-Control-Custom-Device
+Control-Addon
 ===================
+
+### Description ###
 
 This addon provides PID and On/Off (called industrial) control to NI VeriStand. Additionally, it provides special workspace objects tailored towards control.  Last, a PID tuning tool is provided to allow controlled gain changes..
 
-### LabVIEW Version ###
+### Help ###
 
-LabVIEW 2019
+Quick Start Documentation is at
+
+Built: C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Control Addon\Windows\Quick Start Documentation
+
+Source: Source\Addon\Support Files\Quick Start Documentation
+
+Help is also included in most System Explorer sections.
 
 ### Built Availability ###
 
@@ -20,6 +28,10 @@ None
 IP has been tested by developer. It meets VeriStand addon coding best practices. It is currently used by various customers.
 
 IP does not support multiple modes for per PID controller.
+
+### Source Version ###
+
+LabVIEW 2019
 
 ### Source Dependencies ###
 
