@@ -35,17 +35,13 @@ LabVIEW 2019
 
 ### Source Dependencies ###
 
+NI Veristand Custom Device Development Tools (https://github.com/ni/niveristand-custom-device-development-tools/releases)
+
 LabVIEW Control or LabVIEW RT 2019 (required for PID VIs)
 
 NI Simple Messaging Library 3.0.0.7 or later
 
 NI Asynchronous Messaging Communication Library 3.3.1.22 or later
-
-VeriStand Addon Inline Async API (https://github.com/ni/niveristand-custom-device-inline-async-api)
-
-VeriStand Addon Network Comm (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm)
-
-HTML Help File Tools (https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools)
 
 ### License ###
 
