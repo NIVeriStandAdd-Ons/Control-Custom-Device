@@ -39,9 +39,9 @@ NI Veristand Custom Device Development Tools (https://github.com/ni/niveristand-
 
 LabVIEW Control or LabVIEW RT 2019 (required for PID VIs)
 
-NI Simple Messaging Library 3.0.0.7 or later
+NI Simple Messaging Library 3.1.0.9 or (https://www.vipm.io/package/ni_lib_stm/)
 
-NI Asynchronous Messaging Communication Library 3.3.1.22 or later
+NI Asynchronous Messaging Communication Library 3.3.1.22 (https://www.vipm.io/package/ni_lib_amc/)
 
 ### License ###
 
