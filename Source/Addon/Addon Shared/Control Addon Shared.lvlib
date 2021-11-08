@@ -36,6 +36,7 @@
 	<Item Name="Shared" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Add PID Parameter Row.vi" Type="VI" URL="../SubVIs/Add PID Parameter Row.vi"/>
+			<Item Name="Check PID Gains Cell Edit.vi" Type="VI" URL="../SubVIs/Check PID Gains Cell Edit.vi"/>
 			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
 			<Item Name="Convert Version String to Cluster.vi" Type="VI" URL="../SubVIs/Convert Version String to Cluster.vi"/>
 			<Item Name="Delete PID Parameter Row.vi" Type="VI" URL="../SubVIs/Delete PID Parameter Row.vi"/>
