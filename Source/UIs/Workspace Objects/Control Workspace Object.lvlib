@@ -35,18 +35,11 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Close Workspace Control Refs.vi" Type="VI" URL="../SubVIs/Close Workspace Control Refs.vi"/>
-		<Item Name="Get Controller Variables Ranges.vi" Type="VI" URL="../SubVIs/Get Controller Variables Ranges.vi"/>
 		<Item Name="Get Controllers via Storage API.vi" Type="VI" URL="../SubVIs/Get Controllers via Storage API.vi"/>
-		<Item Name="Get Dependent Nodes from SysDef Root.vi" Type="VI" URL="../SubVIs/Get Dependent Nodes from SysDef Root.vi"/>
 		<Item Name="Initialize Workspace Control Refs.vi" Type="VI" URL="../SubVIs/Initialize Workspace Control Refs.vi"/>
 		<Item Name="Select Controller.vi" Type="VI" URL="../SubVIs/Select Controller.vi"/>
-		<Item Name="UDP Data Engine.vi" Type="VI" URL="../SubVIs/UDP Data Engine.vi"/>
-		<Item Name="UI Set DisableState.vi" Type="VI" URL="../SubVIs/UI Set DisableState.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="UDP Streaming Command Cluster.ctl" Type="VI" URL="../Types/UDP Streaming Command Cluster.ctl"/>
-		<Item Name="UDP Streaming State.ctl" Type="VI" URL="../Types/UDP Streaming State.ctl"/>
-		<Item Name="UI.Chart.Refs.ctl" Type="VI" URL="../Types/UI.Chart.Refs.ctl"/>
 		<Item Name="Workspace Object Cached Settings.ctl" Type="VI" URL="../Types/Workspace Object Cached Settings.ctl"/>
 		<Item Name="Workspace Object State Variables.ctl" Type="VI" URL="../Types/Workspace Object State Variables.ctl"/>
 	</Item>

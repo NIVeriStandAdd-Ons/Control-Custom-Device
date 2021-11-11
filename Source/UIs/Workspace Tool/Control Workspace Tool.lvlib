@@ -37,9 +37,9 @@
 		<Item Name="Check Network Connection.vi" Type="VI" URL="../SubVIs/Check Network Connection.vi"/>
 		<Item Name="Get and Check PID Parameters.vi" Type="VI" URL="../SubVIs/Get and Check PID Parameters.vi"/>
 		<Item Name="Get Targets and Devices via Storage API.vi" Type="VI" URL="../SubVIs/Get Targets and Devices via Storage API.vi"/>
-		<Item Name="Initialize.vi" Type="VI" URL="../SubVIs/Initialize.vi"/>
+		<Item Name="Initialize Workspace Tool Refs.vi" Type="VI" URL="../SubVIs/Initialize Workspace Tool Refs.vi"/>
 		<Item Name="Select Custom Device.vi" Type="VI" URL="../SubVIs/Select Custom Device.vi"/>
-		<Item Name="UI Set DisableState.vi" Type="VI" URL="../SubVIs/UI Set DisableState.vi"/>
+		<Item Name="UI Set Tuning DisableState.vi" Type="VI" URL="../SubVIs/UI Set Tuning DisableState.vi"/>
 		<Item Name="Update PID Parameters in System Definition.vi" Type="VI" URL="../SubVIs/Update PID Parameters in System Definition.vi"/>
 		<Item Name="Update PID Parameters Listbox.vi" Type="VI" URL="../SubVIs/Update PID Parameters Listbox.vi"/>
 	</Item>
