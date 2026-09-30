@@ -31,13 +31,13 @@ IP does not support multiple modes for per PID controller.
 
 ### Source Version ###
 
-LabVIEW 2019
+LabVIEW 2026
 
 ### Source Dependencies ###
 
 NI Veristand Custom Device Development Tools (https://github.com/ni/niveristand-custom-device-development-tools/releases)
 
-LabVIEW Control or LabVIEW RT 2019 (required for PID VIs)
+LabVIEW Control or LabVIEW RT 2026 (required for PID VIs)
 
 NI Simple Messaging Library 3.1.0.9 (https://www.vipm.io/package/ni_lib_stm/)
 
