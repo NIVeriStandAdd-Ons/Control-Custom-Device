@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
   <AddMenu>
-    <eng>National Instruments::Control Addon</eng>
-    <loc>National Instruments::Control Addon</loc>
+    <eng>NI::Control Addon</eng>
+    <loc>NI::Control Addon</loc>
   </AddMenu>
   <Version>1.0.2</Version>
   <Type>Inline Model Interface</Type>
